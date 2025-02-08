@@ -109,6 +109,10 @@ while row <= sheet.max_row:
         cell.fill = blue_fill
     row += 1
 
+## Publicação no Zenodo
+
+Este projeto foi publicado no Zenodo para garantir sua preservação e citação. Você pode acessar o registro [aqui](https://doi.org/10.5281/zenodo.14837984).
+
 # Save the Excel file
 doc.save("corrected_odds_column_a.xlsx")
 
